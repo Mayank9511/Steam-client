@@ -49,9 +49,9 @@ const GetStarted = () => {
           Verse!
         </span>
       </h2>
-      <div className="mt-[5vh] flex flex-grow flex-wrap">
+      <div className="mt-[5vh]  flex flex-grow flex-wrap">
         {/* Left Box - File Upload and Question (30% Width) */}
-        <div className="w-full sm:w-1/2 lg:w-[30%] p-2">
+        <div className="w-full h-[60vh] sm:w-1/2 lg:w-[30%] p-2">
           <div className="p-10 border border-neutral-700 rounded-xl h-full flex flex-col justify-between">
             <div>
               <Typography variant="h8" gutterBottom>
@@ -94,7 +94,7 @@ const GetStarted = () => {
         </div>
 
         {/* Right Box - Response (70% Width) */}
-        <div className="w-full sm:w-1/2 lg:w-[70%] p-2">
+        <div className="w-full h-[60vh] sm:w-1/2 lg:w-[70%] p-2">
           <div className="p-10 border border-neutral-700 rounded-xl h-full">
             <Typography variant="h5" gutterBottom>
               Response:
