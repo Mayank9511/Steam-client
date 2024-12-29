@@ -51,7 +51,7 @@ const GetStarted = () => {
       </h2>
       <div className="mt-10  flex flex-grow flex-wrap">
         {/* Left Box - File Upload and Question (30% Width) */}
-        <div className="w-full h-[35vh] sm:w-1/2 lg:w-[30%] sm:h-[50vh] p-2">
+        <div className="w-full h-[35vh] sm:w-1/2 lg:w-[30%] sm:h-[70vh] p-2">
           <div className="p-10 border border-neutral-700 rounded-xl h-full flex flex-col justify-between">
             <div>
               <Typography variant="h8" gutterBottom>
@@ -94,13 +94,13 @@ const GetStarted = () => {
         </div>
 
         {/* Right Box - Response (70% Width) */}
-        <div className="w-full h-[48vh] sm:w-1/2 lg:w-[70%] sm:h-[50vh] p-2">
+        <div className="w-full h-[48vh] sm:w-1/2 lg:w-[70%] sm:h-[70vh] p-2">
           <div className="p-10 border border-neutral-700 rounded-xl h-full">
             <Typography variant="h5" gutterBottom>
               Response:
             </Typography>
 
-            <div className="h-[35vh] lg:h-[35vh] overflow-y-auto">
+            <div className="h-[35vh] sm:h-[52vh] overflow-y-auto">
               {response ? (
                 <Typography
                   variant="body1"
