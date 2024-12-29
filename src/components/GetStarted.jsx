@@ -42,8 +42,8 @@ const GetStarted = () => {
   };
 
   return (
-    <div className="flex flex-col">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
+    <div className="flex flex-col my-2">
+      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center tracking-wide">
         STEAM
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
           Verse!
@@ -51,7 +51,7 @@ const GetStarted = () => {
       </h2>
       <div className="mt-[5vh]  flex flex-grow flex-wrap">
         {/* Left Box - File Upload and Question (30% Width) */}
-        <div className="w-full h-[60vh] sm:w-1/2 lg:w-[30%] p-2">
+        <div className="w-full h-[35vh] sm:w-1/2 lg:w-[30%] lg:h-[50vh] p-2">
           <div className="p-10 border border-neutral-700 rounded-xl h-full flex flex-col justify-between">
             <div>
               <Typography variant="h8" gutterBottom>
@@ -94,13 +94,13 @@ const GetStarted = () => {
         </div>
 
         {/* Right Box - Response (70% Width) */}
-        <div className="w-full h-[60vh] sm:w-1/2 lg:w-[70%] p-2">
+        <div className="w-full h-[50vh] sm:w-1/2 lg:w-[70%] p-2">
           <div className="p-10 border border-neutral-700 rounded-xl h-full">
             <Typography variant="h5" gutterBottom>
               Response:
             </Typography>
 
-            <div className="max-h-[70vh] sm:h-[50vh] overflow-y-auto">
+            <div className="h-[35vh] sm:h-[50vh] lg:h-[30vh] overflow-y-auto">
               {response ? (
                 <Typography
                   variant="body1"
